@@ -1,0 +1,42 @@
+
+
+
+/* --------------- buttons styles --------------- */
+.butn,
+.btn {
+    padding: 12px 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(to right, #ff6ed1 0%, #1e77d7 100%);
+    &:hover{
+        background-image: linear-gradient(90deg, #1e77d7 0%, #ff6ed1 100%);
+        animation: slidebg 3s linear infinite;
+     }
+}
+
+// ------ animation ------
+.scale_up_down{
+    animation: RL_smooth 1s ease-in-out infinite alternate both;
+}
+@keyframes RL_smooth {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+

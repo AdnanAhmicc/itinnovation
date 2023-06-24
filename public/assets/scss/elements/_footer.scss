@@ -1,0 +1,89 @@
+/* --------------- footer styles --------------- */
+footer.footer {
+  position: relative;
+  background: rgb(59, 31, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(59, 31, 89, 1) 0%,
+    rgba(37, 50, 124, 1) 100%
+  );
+
+  .content {
+    padding: 90px 0 70px;
+    position: relative;
+    z-index: 5;
+  }
+  p,
+  a,
+  li {
+    font-size: 18px;
+    color: #fdecec;
+  }
+  a:hover {
+    color: var(--color-main);
+  }
+  .text {
+    color: #fff;
+    font-size: 14px;
+  }
+  .foot_info {
+    li {
+      margin: 20px 0;
+      i {
+        color: var(--color-main);
+        font-size: 16px;
+      }
+    }
+  }
+  .social_icons {
+    margin-top: 10px;
+    display: flex;
+    a {
+      width: 33px;
+      height: 33px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFF;
+      margin: 5px;
+      &:hover {
+        background: var(--color-main-grad);
+        color: #fff;
+      }
+    }
+  }
+  .links {
+    li {
+      margin: 10px 0 10px 15px;
+    }
+  }
+  .link_title {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 23px;
+    font-weight: 600;
+    a {
+      cursor: pointer;
+    }
+  }
+  .foot {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #fff3;
+    .navbar-brand {
+      width: 250px;
+    }
+  }
+}
+#tsparticles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 96%;
+}

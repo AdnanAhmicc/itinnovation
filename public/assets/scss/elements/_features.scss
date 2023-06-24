@@ -1,0 +1,48 @@
+/* --------------- Features Styles ----------------  */
+.features {
+  position: relative;
+  padding: 80px 0;
+  background: rgb(59, 31, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(59, 31, 89, 1) 0%,
+    rgba(37, 50, 124, 1) 100%
+  );
+  .desc {
+    font-size: 26px;
+  }
+  .butn,
+  .btn {
+    width: 220px;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #ff6ed1 0%, #1e77d7 100%);
+    &:hover{
+      background-image: linear-gradient(90deg, #1e77d7 0%, #ff6ed1 100%);
+      animation: slidebg 3s linear infinite;
+   }
+  }
+  .arrow-img {
+    width: 200px;
+  }
+  @media screen and (max-width: 787px) {
+    .desc {
+      font-size: 22px;
+    }
+    .arrow-img {
+      width: 150px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .desc {
+      font-size: 18px;
+    }
+    .arrow-img {
+      width: 100px;
+    }
+  }
+}
