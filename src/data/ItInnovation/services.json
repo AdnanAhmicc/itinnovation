@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "/assets/images/telefoni.svg",
+    "title": "Telefoni",
+    "link": "/telefoni"
+  },
+  {
+    "icon": "/assets/images/el.svg",
+    "title": "El",
+    "link": "/el"
+  },
+  {
+    "icon": "/assets/images/leasing.svg",
+    "title": "Leasing",
+    "link": "/leasing"
+  },
+  {
+    "icon": "/assets/images/bredband.svg",
+    "title": "Bredband",
+    "link": "/bredband"
+  },
+  {
+    "icon": "/assets/images/molnvaxel.svg",
+    "title": "Molnväxel",
+    "link": "/molnvaxel"
+  },
+  {
+    "icon": "/assets/images/omni.svg",
+    "title": "Kontakt center",
+    "link": "/omnichannel"
+  },
+  {
+    "icon": "/assets/images/marknadsforing.svg",
+    "title": "Marknadsförning",
+    "link": "/marknadsforning"
+  },
+  {
+    "icon": "/assets/images/webbutveckling.svg", 
+    "title": "Webbutveckling",
+    "link": "/webbutveckling"
+  }
+]
