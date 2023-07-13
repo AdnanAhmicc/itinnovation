@@ -87,7 +87,7 @@ const Footer = () => {
               <p className="rights">
                 <span>©&nbsp;</span>
                 <span className="copyright-year">2023</span>.
-                Alla rättigheter förbehållna. Design av <Link href="https://itinnovation.se/" legacyBehavior><a><b>IT Innovation</b></a></Link>
+                Alla rättigheter förbehållna. Design av <Link href="https://pdfhost.io/v/AkI2Wkuwn_pdf" legacyBehavior><a><b>IT-Innovation Sales & Services Sweden AB</b></a></Link>
               </p>
             </div>
           </div>
